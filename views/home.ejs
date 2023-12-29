@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>web social</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>ciao <%= data.utenti[1].nome %></h1>
+    <div class="inline-flex">
+        <div class="m-3 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= data.utenti[1].nome %></h1>
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white" ><%= data.utenti[1].cognome %></h1>
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= data.utenti[1].eta %></h1>
+        </div>
+
+        <div class="m-3 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= data.utenti[2].nome %></h1>
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white" ><%= data.utenti[2].cognome %></h1>
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= data.utenti[2].eta %></h1>
+        </div>
+
+        <div class="m-3 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= data.utenti[3].nome %></h1>
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white" ><%= data.utenti[3].cognome %></h1>
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= data.utenti[3].eta %></h1>
+        </div>
+
+        <div class="m-3 block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= data.utenti[4].nome %></h1>
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white" ><%= data.utenti[4].cognome %></h1>
+            <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><%= data.utenti[4].eta %></h1>
+        </div>
+
+        
+
+    </div>
 </body>
 </html>
